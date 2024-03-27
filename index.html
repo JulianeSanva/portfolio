@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEYONCÉ</title>
+
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="./assets/js/script.js" defer></script>
+
+</head>
+
+<body>
+
+    <header class="cabecalho" id="inicio">
+        <div class="cabecalho__imagem">
+            <img src="https://s2-g1.glbimg.com/Ti8avP7eBJsyi6EhUpXY9A9FDe8=/0x0:1080x1080/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/6/Q/vBbXgrSUuQTNU6rLfosw/beyonce-291285488-1356253621871551-6596240182727178392-n.jpg"
+                alt="Capa álbum Renaissance">
+        </div>
+        <div class="cabecalho__conteudo">
+            <h1 class="cabecalho__conteudo__titulo"> B E Y O N C É </h1>
+            <span class="cabecalho__conteudo__subtitulo">QUEEN OF HOUSE</span>
+            <a class="cabecalho__conteudo__botao" href="#apresentacao">
+                <div class="horse__icon">
+                    <img src="./assets/imagens/icons8-horse-32.png" alt="">
+                </div>
+                <div class="botao__texto">
+                    SAIBA MAIS
+                </div>
+            </a>
+        </div>
+
+    </header>
+
+    <section class="apresentacao" id="apresentacao">
+        <div>
+            <img class="apresentacao__imagem" src="assets/imagens/albuns_beyonce.jpeg"
+            alt="Colagem com foto dos álbuns da Beyoncé">
+        </div>
+        <div class="apresentacao__conteudo">
+            <h2 class="titulo">DISCOGRAFIA</h2>
+            <p class="apresentacao__conteudo__texto">
+                A discografia de Beyoncé é uma jornada musical que transcende gêneros e desafia convenções. Desde seus dias no Destiny's Child até sua carreira solo, Beyoncé estabeleceu um padrão de excelência. Seus álbuns, como "Dangerously in Love", "Lemonade" e "Black Is King", exploram uma variedade de estilos musicais e temas sociais, enquanto demonstram sua capacidade de reinvenção constante. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            </p>
+                <a href="#inicio" class="cabecalho__conteudo__botao"> conheça os álbuns</a>
+        </div>
+        
+    </section>
+
+    <section class="albuns" id="lemonade">
+
+        <div class="albuns__conteudo">
+            <h3 class="albuns__conteudo__titulo"> DANGEROUSLY IN LOVE </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempore saepe nulla libero, animi dolores veniam magnam nobis eius rerum odit doloremque ex, dolor reiciendis iusto. Sequi quaerat voluptatem officia?
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat tempore saepe nulla libero, animi dolores veniam magnam nobis eius rerum odit doloremque ex, dolor reiciendis iusto. Sequi quaerat voluptatem officia?
+            </p>
+        </div>
+        <div>
+            <img class="albuns__imagem"  src="./assets/imagens/beyonce.png" alt="Álbum Dangerously In Love - Beyoncé">
+        </div>
+
+
+
+
+    </section>
+
+
+<section class= "projetos"id="secao-projetos">
+    <h2 class="projetos__tri">TRILOGIA</h2>
+    <ul>
+        <li>
+            <div class="card">
+                <div class="image-wrapper"><img
+                        src="assets/imagens/beyoncé - renaissance capa.jpg" alt="">
+                </div>
+                <div class="card-text">
+                    <h3>ACT I</h3>
+                    <p>Renaissance</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="card">
+                <div class="image-wrapper"><img
+                        src="assets/imagens/beyonce cowboy.png" alt="">
+                </div>
+                <div class="card-text">
+                    <h3>ACT II</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, illum.</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="card">
+                <div class="image-wrapper"><img
+                        src="assets/imagens/BEYONCE III (1).jpeg" alt="">
+                </div>
+                <div class="card-text">
+                    <h3>ACT III</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, illum.</p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section class="orcamento" id="secao-orcamento">
+    <h2 class="orcamento__titulo">Orçamento</h2>
+    <form action="">
+        <div class="campo linha">
+        <label class="texto" for="nome">Nome completo</label>
+        <input type="text" id="nome">
+        </div>
+        <div class="campo">
+            <label class="texto" for="albuns">Quantos álbuns?</label>
+            <input type="number" id="albuns" value="1" min="1">
+        </div>
+        <output class="texto" id="preco">R$ 100,00</output>
+        <div class="campo">
+            <label class="texto" for="tipo">Tipo de álbum</label>
+            <select name="tipo" id="tipo">
+                <option class="opcao" ></option>
+                <option class="opcao" value="1">standard</option>
+                <option class="opcao" value="2">deluxe</option>
+            </select>
+        </div>
+        <div class="campo linha">
+            <label class="texto" for="card">Acompanha card?</label>
+            <div>
+                <input name= "card"type="radio" id="card_sim">
+                <label class="texto" for="card_sim">Sim!</label>
+                <input name="card" type="radio" id="card_nao">
+                <label class="texto"for="card_nao">Não, já tenho</label>
+            </div>
+        </div>
+        <div class="linha">
+            <input type="checkbox" id="gift">
+            <label class="texto" for="gift">É presente?</label>
+        </div>
+        <div class="campo linha">
+            <label class="texto" for="quant">Quantidade</label>
+            <input type="range" name="quant" id="quant" min="1" max="12">
+        </div>
+    </form>
+</section>
+</body>
+</html>
